@@ -29,4 +29,25 @@ With this method of goal-point detection we obtain a 'safer' path for our vehicl
 
 # A simulation was developed using turtlesim that follows the midpoints coming from the planning block </h3>
 
+# STEPS TO FOLLOW : </h3> 
+
+
+(1) make a catkin_ws folder
+
+(2) Once you have the 3 folders devel buin and src take what you find in this src folder in the git and copy it into your
+
+(3) In a terminal you launch roscore
+
+(4) Then you launch the turtle sim with the command: rosrun turtlesim turtlesim_node
+
+(5) Then you rosrun turtlesim turtlesim_teleop_key
+
+(6) And keyboard commands and put the turtle in the centre left to avoid it going off the screen
+
+(7) rosrun vision vision_new.py is not needed in the simulation but is present if you want to run it
+
+(8) then run rosrun control go_to_goal.py. Launch the control first so it waits for the path and as soon as it arrives it starts.
+
+(9) Finally, you can launch the planning with the command  rosrun planning triangolazione.py
+
 
