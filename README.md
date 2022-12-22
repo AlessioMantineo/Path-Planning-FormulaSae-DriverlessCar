@@ -28,7 +28,7 @@ A solution developed for this problem is to consider the midpoint between the fi
 With this method of goal-point detection we obtain a 'safer' path for our vehicle, which allows us to limit the damage of any errors in detecting the position he obstacles.
 
 # A simulation was developed using turtlesim that follows the midpoints coming from the planning block </h3>
-
+<img align="right" alt="Coding" width="400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ros_logo.svg/1280px-Ros_logo.svg.png">
 # STEPS TO FOLLOW : </h3> 
 
 
